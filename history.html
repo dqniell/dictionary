@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search History</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Dictionary!</a>
+        <nav class="navbar">
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="history.html" class="active">History</a>
+        </nav>
+    </header>
+
+    <div class="history-container">
+        <h2>Search History</h2>
+        <ul id="historyList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+        // Call the displaySearchHistory() function to populate the search history on page load
+        displaySearchHistory();
+    </script>
+</body>
+</html>
